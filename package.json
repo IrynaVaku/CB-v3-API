@@ -1,0 +1,31 @@
+{
+  "name": "cb-v3-api",
+  "version": "1.0.0",
+  "description": "practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha --config .mocharc.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrynaVaku/CB-v3-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IrynaVaku/CB-v3-API/issues"
+  },
+  "homepage": "https://github.com/IrynaVaku/CB-v3-API#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/plugin-transform-runtime": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/register": "^7.18.9",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.1",
+    "mocha": "^10.0.0",
+    "supertest": "^6.2.4"
+  }
+}
